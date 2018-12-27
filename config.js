@@ -4,7 +4,7 @@ module.exports = {
     'ack',
     'ag',
     // alternative to `cat`: https://github.com/sharkdp/bat
-    'bat', 
+//    'bat', 
     // Install GNU core utilities (those that come with macOS are outdated)
     // Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
     'coreutils',
@@ -55,7 +55,7 @@ module.exports = {
     // 'box-sync',
     //'comicbooklover',
     //'diffmerge',
-    'docker', // docker for mac
+//    'docker', // docker for mac
     //'dropbox',
     //'evernote',
     'flux',
@@ -69,18 +69,18 @@ module.exports = {
     //'macvim',
     'sizeup',
     //'sketchup',
-    'slack',
+  //  'slack',
     'the-unarchiver',
     //'torbrowser',
     //'transmission',
-    'visual-studio-code',
+//    'visual-studio-code',
     //'vlc',
     'xquartz'
   ],
   gem: [
   ],
   npm: [
-    'antic',
+//    'antic',
     'buzzphrase',
     'eslint',
     'instant-markdown-d',

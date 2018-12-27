@@ -95,6 +95,10 @@ alias vtop="vtop --theme wizard"
 
 alias jsonfix="pbpaste | jq . | pbcopy"
 
+# Useful shortcuts
+alias arcup="git up && arc diff"
+alias ds="docker stop $(docker ps -aq)"
+
 alias lookbusy="cat /dev/urandom | hexdump -C | grep \"34 32\""
 alias td="todo.sh"
 alias tda="todo.sh add"
